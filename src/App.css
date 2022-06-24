@@ -3,7 +3,27 @@
 }
 
 body {
+  background-image: url('./images/background.png');
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+.planetList {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.card {
+  display: inline-block;
+  margin: 5px;
+}
+
+.imagePlanet {
+  height: 60%;
+  width: 60%;
+}
+
+.text {
+  color: white;
 }
