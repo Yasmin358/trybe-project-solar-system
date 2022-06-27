@@ -19,12 +19,74 @@ body {
   margin: 5px;
 }
 
+.missionsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardMission {
+  background-color: rgba(25, 25, 112, 0.2);
+  border: 2px solid lightsteelblue;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 13px;
+  height: 150px;
+  margin: 10px;
+  padding: 0 15px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  width: auto;
+}
+
+.cardMission:hover {
+  box-shadow: 0 0 20px 5px  rgba(100, 149, 237, 0.8);
+}
+
 .imagePlanet {
   height: 50%;
   width: 50%;
+}
+
+.Cor {
+  color: teal;
 }
 
 .text {
   color: white;
   font-family: Orbitron , sans-serif;
 }
+
+.title, .cabecalho {
+  background-color: rgb(0, 0, 0, 0.3);
+  border: 2px gray solid;
+  color: darkgoldenrod;
+  font-family: Orbitron , sans-serif;
+  padding: 10px 0;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.cabecalho {
+  margin-bottom: 0;
+}
+
+h2 {
+  padding: 0 3px;
+}
+
+h2:before, h2:after {
+  border-bottom: lightgray solid;
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+}
+
+h2:before {
+  margin-left: -100%;}
+
+h2:after {
+  margin-right: -100%;}
