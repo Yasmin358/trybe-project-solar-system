@@ -20,7 +20,7 @@ body {
 }
 
 .missionsList {
-  display: flex;
+  display: flexbox;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -44,8 +44,12 @@ body {
 }
 
 .imagePlanet {
-  height: 50%;
+  height: auto;
   width: 50%;
+}
+
+.imagePlanet:hover {
+  filter: drop-shadow(0 0 8px rgba(218, 165, 32, 0.829));
 }
 
 .Cor {
